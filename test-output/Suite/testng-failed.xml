@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="javatestcases.Listeners"/>
+  </listeners>
+  <test name="Test(failed)">
+    <classes>
+      <class name="javatestcases.DataProviderTest">
+        <methods>
+          <include name="a" invocation-numbers="0 1"/>
+          <include name="teardown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- javatestcases.DataProviderTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
